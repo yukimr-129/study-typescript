@@ -4,6 +4,7 @@ import { logMessage, logMessageSecond, logMessageThird } from './function/basicF
 import { isUserSignedIn, isUserSignedIn2, sumTaxInPrice, restParameters } from './function/parameters'
 import objectSample from './object/object-type'
 import typeAliasSample from './object/alias'
+import arraySample from './array_tuple/array'
 
 // const root = document.getElementById('root')
 // const world = new World('Hello Yuki!!!')
@@ -23,3 +24,4 @@ console.log(res)
 
 objectSample()
 typeAliasSample()
+arraySample()
