@@ -5,6 +5,7 @@ import { isUserSignedIn, isUserSignedIn2, sumTaxInPrice, restParameters } from '
 import objectSample from './object/object-type'
 import typeAliasSample from './object/alias'
 import arraySample from './array_tuple/array'
+import genericType from './polymorphism/polymorphism'
 
 // const root = document.getElementById('root')
 // const world = new World('Hello Yuki!!!')
@@ -25,3 +26,5 @@ console.log(res)
 objectSample()
 typeAliasSample()
 arraySample()
+
+genericType()
