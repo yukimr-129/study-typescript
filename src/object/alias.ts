@@ -38,7 +38,7 @@ const typeAliasSample = () => {
   //交差型（intersection） Knight & Wizardの型を持つ
   type Paradin = Knight & Wizard
 
-  //合併型（union）
+  //合併型（union）どちらかの型を持つ
   //※お互いのプロパティを持つことができてしまう
   const adventurerKnight: Adventurer = {
     hp: 100,
