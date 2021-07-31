@@ -6,6 +6,7 @@ import objectSample from './object/object-type'
 import typeAliasSample from './object/alias'
 import arraySample from './array_tuple/array'
 import genericType from './polymorphism/polymorphism'
+import promiseSample from './promise/promise'
 
 // const root = document.getElementById('root')
 // const world = new World('Hello Yuki!!!')
@@ -28,3 +29,5 @@ typeAliasSample()
 arraySample()
 
 genericType()
+
+promiseSample()
